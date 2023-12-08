@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table th{
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+    background-color: rgb(31, 31, 31);
+}
+table td{
+    padding-block:0.5rem ;
+    padding-inline: 0.5rem;
+}
+table tr:nth-child(even){
+    background-color: #1e1b1b5d;
+}
+table tr:hover{
+    background-color: #1e1b1b;
+}
